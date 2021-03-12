@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Designer;
+use App\Models\Character;
 use App\Models\Designer;
 
 class DesignerController extends Controller
@@ -25,7 +25,7 @@ class DesignerController extends Controller
         $designer->name = $request->name;
         $designer->year_born = $request->year_born;
         $designer->nationality = $request->nationality;
-        $book->save();
+        $designer->save();
         return redirect('/designers');
     }
 }
