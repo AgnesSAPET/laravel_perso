@@ -12,4 +12,6 @@
             placeholder="Rechercher sur le site…">
         <button id="button">Recherche</button>
     </label>-->
+
+<img class="img" src="images/80s.jpg" alt="">
 @endsection

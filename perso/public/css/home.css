@@ -9,10 +9,11 @@
     justify-content: center;
     padding: 10px;
     margin: 30px;
-    font-weight: 400;
 }
 
 h3{
+    margin-top: -20px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: center;
 }
@@ -46,4 +47,10 @@ label {
 #button:hover{
     background: rgb(175,181,181);
     background: linear-gradient(0deg, rgba(175,181,181,1) 0%, rgba(113,117,117,1) 15%, rgba(70,72,72,1) 37%, rgba(4,4,4,1) 75%);
+}
+
+.img{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
 }
