@@ -8,7 +8,7 @@ use App\Models\Designer;
 
 class DesignerController extends Controller
 {
-    public static function add(Request $request)
+    public static function addDesigner(Request $request)
     {
         $designer = new Designer;
         $designer->name = $request->name;
@@ -18,14 +18,21 @@ class DesignerController extends Controller
         return redirect ('/designers');
     }
 
-    public static function update(Request $request)
+    public static function updateDesigner(Request $request)
     {
-        $designer = Designer::find($request->id);;
-        $designer = new Designer;
+        $designer = Designer::find($request->id);
         $designer->name = $request->name;
         $designer->year_born = $request->year_born;
         $designer->nationality = $request->nationality;
         $designer->save();
         return redirect('/designers');
+    }
+
+    public static function delete(Request $request)
+    {
+       $designers = Designer::find($request->id);
+       $designers->delete();
+       //Designer::destroy($request->id);
+       return redirect('/designers');
     }
 }

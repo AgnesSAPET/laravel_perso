@@ -21,7 +21,12 @@
                     </ul>
             </li>
             <li><a id="menu" href="/designers">Dessinateur</a></li>
-            <li><a id="menu" href="/add">Ajouts</a></li>
+            <li><a id="menu" href="/add">Ajouts</a>
+                <ul>
+                    <li class="perso"><a href="/addPerso">Personnages</a></li>
+                    <li class="designer"><a href="/addDesigner">Créateurs</a></li>
+                </ul>
+            </li>
             
             
             

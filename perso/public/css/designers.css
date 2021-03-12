@@ -59,10 +59,10 @@ form{
     color: black;
 }
 
-.date{
-    text-align: center;
-}
-
 #link:hover{
     color: white;
+}
+
+.date{
+    text-align: center;
 }

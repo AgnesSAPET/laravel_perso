@@ -23,10 +23,14 @@ Route::get('/character/{id}', [NavController::class, 'character']);
 Route::get('/designer/{id}', [NavController::class, 'designer']);
 
 Route::get('/add', [NavController::class, 'add']);
-Route::post('/addCharacter', [CharacterController::class, 'add']); // action dans un page
-
+Route::get('/addPerso', [NavController::class, 'addPerso']);
+Route::post('/addPerso', [CharacterController::class, 'addPerso']); // action dans un page
+Route::get('/addDesigner', [NavController::class, 'addDesigner']);
+Route::post('/addDesigner', [DesignerController::class, 'addDesigner']); // action dans un page
 
 Route::post('/deleteCharacter', [CharacterController::class, 'delete']);
 
 Route::get('/updateCharacter/{id}', [NavController::class, 'updateCharacter']);
-Route::post('/updateCharacter', [CharacterController::class, 'update']);
+Route::post('/updateCharacter', [CharacterController::class, 'updateCharacter']);
+Route::get('/updateDesigner/{id}', [NavController::class, 'updateDesigner']);
+Route::post('/updateDesigner', [DesignerController::class, 'updateDesigner']);

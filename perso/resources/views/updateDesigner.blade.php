@@ -6,7 +6,7 @@
 @section('content')
     <h1 class="title">Modifier le Personnage</h1>
     <div class="cadre">
-        <form action="/updateCharacter" method="POST">
+        <form action="/updateDesigner" method="POST">
             @csrf
             <fieldset class="test">
                 <legend>Modifier Votre Personnage</legend>

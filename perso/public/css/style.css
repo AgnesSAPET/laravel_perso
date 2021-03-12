@@ -107,11 +107,15 @@ a:visited{
     background-color: #000;  /* Couleur d'arriere-plan des sous-menu au survol */ 
 } 
 
-.albator:hover{
+.albator, .perso:hover{
     border-radius: 10px 10px 0px 0px;
 }
 
 .tintin:hover{
+    border-radius: 0px 0px 10px 10px;
+}
+
+.designer{
     border-radius: 0px 0px 10px 10px;
 }
 

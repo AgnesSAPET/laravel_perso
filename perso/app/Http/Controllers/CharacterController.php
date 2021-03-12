@@ -8,7 +8,7 @@ use App\Models\Designer;
 
 class CharacterController extends Controller
 {
-    public static function add(Request $request)
+    public static function addPerso(Request $request)
     {
         $character = new Character;
         $character->name = $request->name;
@@ -19,7 +19,7 @@ class CharacterController extends Controller
         return redirect ('/list');
     }
 
-    public static function update(Request $request)
+    public static function updateCharacter(Request $request)
     {
         $character = Character::find($request->id);
         $character->name = $request->name;

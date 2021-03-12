@@ -14,6 +14,7 @@
                     <th scope="col">Année de Naissance</th>
                     <th scope="col">Nationalité</th>
                     <th scope="col">Modiff</th>
+                    <th scope="col">Suppr</th>
                 </tr>
             </thead>
             <tbody>
@@ -24,10 +25,17 @@
                         <td class="date">{{$designer->year_born}}</td>
                         <td>{{$designer->nationality}}</td>
                         <td>
-                            <form action="/updateCharacter/{{$designer->id}}" method="GET">
+                            <form action="/updateDesigner/{{$designer->id}}" method="GET">
                                 @csrf
                                 <input class="modif" type="submit" name="button-update" id="button-update" value="↻">
                             </form>
+                            <td>
+                                <form action="/deleteDesigner" method="POST">
+                                    @csrf
+                                    <input class="supp" type="hidden" name="id" value="{{$designer->id}}">
+                                    <input class="supp" type="submit" name="button-delete" id="button-delete" value="🗑">
+                                </form>
+                            </td>
                         </td>
                     </tr>
                 @endforeach
