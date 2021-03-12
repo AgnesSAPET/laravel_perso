@@ -61,12 +61,12 @@ class NavController extends Controller
     {
         $character = Character::find($id);
         $designer = Designer::all()->sortBy('name');
-        return view('update', ['character' => $character, 'designer' => $designer]);
+        return view('updateCharacter', ['character' => $character, 'designer' => $designer]);
     }
 
     public function updateDesigner($id)
     {
         $designer = Designer::find($id);
-        return view('update', ['designer' => $designer]);
+        return view('updateDesigner', ['designer' => $designer]);
     }
 }

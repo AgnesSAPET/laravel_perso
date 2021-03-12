@@ -13,24 +13,13 @@
                 <div class="form">
         
                     <label for="name">Nom : </label>
-                    <input type="text" name="name" id="name" value="{{$character->name}}"><br>
+                    <input type="text" name="name" id="name" value="{{$designer->name}}"><br>
         
-                    <label for="designer">Dessinateur : </label>
-                    <select name="designer_id" id="">
-                        @foreach ($designer as $designer)
-                            @if ($character->designer_id === $designer->id)
-                                <option value="{{$designer->id}}" selected>{{$designer->name}}</option>
-                            @else
-                                <option value="{{$designer->id}}">{{$designer->name}}</option>
-                            @endif  
-                        @endforeach
-                    </select><br>
+                    <label for="year_born">Année de Naissance : </label>
+                    <input type="number" min=1900 max=2021 name="year_born" id="year_born" value="{{$designer->year_born}}"><br>
         
-                    <label for="creation_year">Année de publication : </label>
-                    <input type="number" min=1900 max=2021 name="creation_year" id="creation_year" value="{{$character->creation_year}}"><br>
-        
-                    <label for="cartoon">Bande Dessiné : </label>
-                    <input type="text" name="cartoon" id="cartoon" value="{{$character->cartoon}}"><br>
+                    <label for="nationality">Nacionalité : </label>
+                    <input type="text" name="nationality" id="nationality" value="{{$designer->nationality}}"><br>
         
                     <input id="button" type="submit" value="Modifier !"><br>
 

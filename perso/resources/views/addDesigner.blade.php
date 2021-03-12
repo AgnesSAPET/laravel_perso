@@ -18,8 +18,8 @@
                     <label for="year_born">Année de Naissance : </label>
                     <input type="number" min=1900 max=2021 name="year_born" id="year_born"><br>
         
-                    <label for="nacionality">Nationalité: </label>
-                    <input type="text" name="nacionality" id="nacionality"><br>
+                    <label for="nationality">Nationalité: </label>
+                    <input type="text" name="nationality" id="nationality"><br>
         
                     <input id="button" type="submit" value="Ajouter !"><br>
 

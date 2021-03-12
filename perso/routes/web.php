@@ -29,6 +29,7 @@ Route::get('/addDesigner', [NavController::class, 'addDesigner']);
 Route::post('/addDesigner', [DesignerController::class, 'addDesigner']); // action dans un page
 
 Route::post('/deleteCharacter', [CharacterController::class, 'delete']);
+Route::post('/deleteDesigner', [DesignerController::class, 'delete']);
 
 Route::get('/updateCharacter/{id}', [NavController::class, 'updateCharacter']);
 Route::post('/updateCharacter', [CharacterController::class, 'updateCharacter']);
