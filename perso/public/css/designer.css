@@ -1,0 +1,30 @@
+.title {
+    color: snow;
+    background-color: #17071491;
+    padding: 10px;
+    border-radius: 60px;
+    margin: 60px;
+}
+
+.flex {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+#card {
+    width: 600px;
+}
+
+.card {
+    max-width: none!important;
+    border: 3px solid black;
+    margin: 10px;
+    background-color: rgb(184, 178, 178);
+}
+
+.card-header{
+    background-color: black;
+    color: white;
+    font-size: 26px;
+}

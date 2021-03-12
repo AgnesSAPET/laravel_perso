@@ -1,0 +1,52 @@
+.title {
+    color: snow;
+    background-color: #17071491;
+    padding: 20px;
+    border-radius: 60px;
+    margin: 50px;
+}
+
+.test{
+    width: 300%;
+    display: flex;
+    justify-content: center;
+}
+
+legend{
+    margin: 3%;
+}
+
+.form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+legend{
+    display: flex;
+    justify-content: center;
+}
+
+#button{
+    width: 25%;
+    display: block;
+    color: white;
+    background: rgb(175,181,181);
+    background: linear-gradient(0deg, rgba(175,181,181,1) 0%, rgba(4,4,4,1) 21%, rgba(113,117,117,1) 72%, rgba(70,72,72,0.9505285608308606) 100%);
+    margin: 3px;
+    border-radius: 10px;
+    height: 26px;
+}
+
+#button:hover{
+    background: rgb(175,181,181);
+    background: linear-gradient(0deg, rgba(175,181,181,1) 0%, rgba(113,117,117,1) 15%, rgba(70,72,72,1) 37%, rgba(4,4,4,1) 75%);
+}
+
+fieldset{
+    background-color: rgba(128, 128, 128, 0.342);
+}
+
+input{
+    background-color: rgba(128, 128, 128, 0.342);
+}

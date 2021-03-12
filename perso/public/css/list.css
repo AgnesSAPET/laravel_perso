@@ -1,0 +1,68 @@
+.title {
+    color: snow;
+    background-color: #17071491;
+    padding: 20px;
+    border-radius: 60px;
+    margin: 50px;
+}
+
+.list {
+    width: auto;
+    border: 3px solid black;
+    margin: 25px;
+    background-color: rgb(170, 163, 163);
+    width: auto;
+}
+
+.tab-haed{
+    background-color: black;
+    color: white;
+    font-size: 200%;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.404);
+    border-radius: 60%;
+}
+
+#body{
+    font-size: 150%;
+}
+
+.modif{
+    border-radius: 69%;
+    width: 50%;
+    font-size: 100%;
+}
+
+.modif:hover{
+    background: rgb(116,116,116);
+    background: linear-gradient(0deg, rgba(116,116,116,1) 11%, rgba(116,116,116,1) 15%, rgba(116,116,116,1) 21%, rgba(149,149,149,1) 40%, rgba(136,136,136,1) 47%, rgba(255,255,255,1) 100%, rgba(247,247,247,1) 100%, rgba(255,255,255,0.9505285608308606) 100%);
+}
+
+.supp{
+    border-radius: 60%;
+    background-color: red;
+    font-size: 100%;
+    width: 50%;
+}
+
+.supp:hover{
+    border-radius: 60%;
+    background: rgb(255,0,0);
+    background: linear-gradient(0deg, rgba(255,0,0,1) 14%, rgba(244,0,25,1) 18%, rgba(29,28,28,0.9505285608308606) 60%, rgba(0,0,0,1) 100%);
+}
+
+#link{
+    color: black;
+}
+
+#link:hover{
+    color: white;
+}
+
+.date{
+    text-align: center;
+}

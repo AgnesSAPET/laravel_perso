@@ -1,0 +1,49 @@
+.info{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 30px;
+    font-weight: 400;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    display: block;
+}
+
+.search {
+    margin: 3px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#search{
+    background-color: white;
+    border-radius: 10px;
+}
+
+#button{
+    display: block;
+    color: white;
+    background: rgb(175,181,181);
+    background: linear-gradient(0deg, rgba(175,181,181,1) 0%, rgba(4,4,4,1) 21%, rgba(113,117,117,1) 72%, rgba(70,72,72,0.9505285608308606) 100%);
+    margin: 3px;
+    border-radius: 10px;
+    width:100px;
+    height: 26px;
+}
+
+#button:hover{
+    background: rgb(175,181,181);
+    background: linear-gradient(0deg, rgba(175,181,181,1) 0%, rgba(113,117,117,1) 15%, rgba(70,72,72,1) 37%, rgba(4,4,4,1) 75%);
+}

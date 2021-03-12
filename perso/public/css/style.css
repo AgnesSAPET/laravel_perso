@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 6vh;
+}
+
+body{
+    background-image: url('/images/back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main{
+    height: 94vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul{
+    list-style:none;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(128, 128, 128);
+}
+
+#menu{
+    color: #000;
+    background: rgb(116,116,116);
+    background: linear-gradient(0deg, rgba(116,116,116,1) 26%, rgba(116,116,116,1) 37%, rgba(116,116,116,1) 48%, rgba(149,149,149,1) 71%, rgba(136,136,136,1) 100%, rgba(255,255,255,1) 100%, rgba(247,247,247,1) 100%, rgba(255,255,255,0.9505285608308606) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 66px;
+    font-size: 26px;
+    border: 2px solid black;
+    border-radius: 69%;
+}
+
+a:link 
+{ 
+ text-decoration:none; 
+} 
+
+#menu:hover{
+    background: rgb(175,181,181);
+    background: linear-gradient(0deg, rgba(175,181,181,1) 0%, rgba(113,117,117,1) 0%, rgba(70,72,72,0.9505285608308606) 2%, rgba(255,254,254,1) 84%);
+    border-radius: 63%;
+    display: flex;
+    flex-direction: row;
+}
+
+a:visited{
+    color:black;
+}
+
+#footer{
+    font-size: 22px;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    padding-top:50px;
+    height:50px;
+}
+
+.all,
+.all ul { /* Pour les sous-menus */
+    list-style-type: none; 
+    margin: 0px;
+    padding: 0px;
+}
+
+.all ul {
+    display: none;
+}
+
+.all li {
+    position: relative;
+}
+
+.all a {
+    color: #000;
+    display: block;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    padding: 3px 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.all li:hover ul {
+    margin: 25px;
+    border-radius: 10%;
+    display: block ;
+    position: absolute;
+    top: 36px; 
+    left: 0px; 
+    z-index: 100; 
+}
+
+.all ul li:hover {
+    background-color: #000;  /* Couleur d'arriere-plan des sous-menu au survol */ 
+} 
+
+.albator:hover{
+    border-radius: 10px 10px 0px 0px;
+}
+
+.tintin:hover{
+    border-radius: 0px 0px 10px 10px;
+}
+
+.all ul li:hover a {   
+    color: white; /* Couleur du texte des sous-menu au survol */
+}
