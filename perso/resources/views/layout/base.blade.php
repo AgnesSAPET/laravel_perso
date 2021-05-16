@@ -13,14 +13,14 @@
         <ul class="all">
             <li><a id="menu" href="/">Accueil</a></li>
             <li>
-                <a id="menu" href="/list">Personnages</a>
+                <a id="menu" href="/list">Persos</a>
                     <ul>
                         <li class="albator"><a href="/character/1">Albator</a></li>
                         <li class="musclore"><a href="/character/2">Musclore</a></li>
                         <li class="tintin"><a href="/character/3">Tintin</a></li>
                     </ul>
             </li>
-            <li><a id="menu" href="/designers">Dessinateur</a></li>
+            <li><a id="menu" href="/designers">Auteurs</a></li>
             <li><a id="menu" href="/add">Ajouts</a>
                 <ul>
                     <li class="perso"><a href="/addPerso">Personnages</a></li>

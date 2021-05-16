@@ -18,19 +18,13 @@ h3{
     justify-content: center;
 }
 
+#carousel{
+    display: flex;
+    justify-content: flex-start;
+}
+
 label {
     display: block;
-}
-
-.search {
-    margin: 3px;
-    display: flex;
-    justify-content: flex-end;
-}
-
-#search{
-    background-color: white;
-    border-radius: 10px;
 }
 
 #button{
@@ -53,4 +47,8 @@ label {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
+}
+
+.carousel{
+    background-color: black;
 }
