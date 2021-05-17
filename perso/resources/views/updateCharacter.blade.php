@@ -11,6 +11,8 @@
             <fieldset class="test">
                 <legend>Modifier Votre Personnage</legend>
                 <div class="form">
+
+                    <input  type="hidden" name="id" id="id" value="{{$character->id}}">
         
                     <label for="name">Nom : </label>
                     <input type="text" name="name" id="name" value="{{$character->name}}"><br>
