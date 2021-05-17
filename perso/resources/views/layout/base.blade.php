@@ -15,9 +15,9 @@
             <li>
                 <a id="menu" href="/list">Persos</a>
                     <ul>
-                        <li class="albator"><a href="/character/1">Albator</a></li>
-                        <li class="musclore"><a href="/character/2">Musclore</a></li>
-                        <li class="tintin"><a href="/character/3">Tintin</a></li>
+                        @foreach ($characters as $character)
+                            <li><a id="link" href="/character/{{$character->id}}">{{$character->name}}</li>
+                        @endforeach
                     </ul>
             </li>
             <li><a id="menu" href="/designers">Auteurs</a></li>

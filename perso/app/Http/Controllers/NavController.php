@@ -15,8 +15,7 @@ class NavController extends Controller
 
     public function list()
     {
-        $characters = Character::all();
-        return view('list', ['characters' => $characters]);
+        return view('list');
     }
 
     public function character($id)
